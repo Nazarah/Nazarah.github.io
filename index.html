@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Nazia Hasan</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nazarah The Cat</title>
     <meta content="author" description="Nazia Hasan">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="image/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-    <link rel="stylesheet" href="css/960_24_col.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/text.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/parallax.css">
     <script>
       <!----- JQUERY FOR SLIDING NAVIGATION --->
       $(document).ready(function() {
@@ -37,222 +37,265 @@
         });
       });
     </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117776228-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-117776228-1');
-    </script>
   </head>
   <body>
-    <header class="header">
-      <div class="container_24">
-        <a href="#slide1">
-          <img src="image/Logo2.png" alt="Nazia Hasan" style="width:181px;height:80px;">
-        </a>
-        <!--
-        <div class=logo>
-          <a href="#slide1">Nazarah</a>
-        </div>
-      -->
-        <nav id="nav">
-          <ul>
-            <li><a href="#slide1" class="active">About Me</a></li>
-            <li><a href="#slide2">Portfolio</a></li>
-            <li><a href="#slide3">UX Skills</a></li>
-            <li><a href="#slide4">Experience</a></li>
-            <li><a href="#slide5">Contact</a></li>
-          </ul>
-        </nav>
+    <!--Navbar starts-->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top justify-content-center" id="nav">
+      <!--logo-->
+      <a class="navbar-brand" href="#slide1">
+        <img src="image/Logo2.png" alt="Logo" style="width:181px;height:80px;">
+      </a>
+      <!--hamburger menu button-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--collapsible nav bar for small screen-->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#slide1">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#slide2">UX Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#slide3">UX Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#slide4">Experiences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#slide5">Contact</a>
+          </li>
+        </ul>
       </div>
-    </header>
-    <div class="clearfix">
-      <div id="slide1">
-        <div class="container_24">
-          <div class="info">
-            <h1>Nazia Hasan</h1>
-            <h2>UI / UX Designer</h2>
-          </div>
-          <div class="grid_7">
-            <blockquote>
-              <p>
-                UX Designer with interests on developers’ experience, dashboard design and location-based services.
-                Have an M.Sc. degree with UX major, 1.5+ years’ work experience and prior expertise in Software Quality Assurance.
-                Detail-oriented & collaborative worker.
-              </p>
-            </blockquote>
-            <p>
-              <a href="https://github.com/Nazarah/Nazarah.github.io/blob/master/files/Nazia_Hasan_Resume.pdf"  onclick="window.open('../files/Nazia_Hasan_Resume.pdf')" target="_blank" class="button" title="Nazia_Hasan_Resume.pdf">Download Resume</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div id="slide2">
-        <div class="container_24">
-          <h3>Portfolio</h3>
-          <div class="grid_8">
-            <img src="image/BikeBox.gif" class="mobile" alt="Bikebox Cycle Storage App">
-            <div style="text-align:center;margin-top:30px;">
-              <a href="https://marvelapp.com/12fjdgh6" target="_blank" title="Interactive Prototype for BikeBox on Marvel">BikeBox Cycle Storage App</a>
-            </div>
-          </div>
-          <div class="grid_15">
-            <img src="image/APInfDashboard.gif" class="ipad" alt="APInf Dashboard">
-            <div style="text-align:center;margin-top:30px;">
-              <a href="https://apinf.io" target="_blank" title="APInf REST API Dashboard">APInf API Monitoring Dashboard</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="slide3">
-        <div class="container_24">
-          <h3>UX Skills</h3>
+    </nav>
+    <!--Navbar ends-->
+    <!--1st parallax section starts-->
+    <div class="container-fluid .justify-content-center" id="slide1">
+      <h1 style="margin-bottom:20px;text-align:center;">Nazia Hasan</h1>
+      <h2 style="margin-bottom:20px;text-align:center;">UI / UX Designer</h2>
+        <p style="margin-bottom:10px;text-align:center;">
+          UX Designer with interests on developers’ experience, dashboard design and location-based services.
+          <br>Have an M.Sc. degree with UX major, 2+ years’ work experience and prior expertise in Software Quality Assurance.
+          <br>Detail-oriented & collaborative worker.
+        </p>
+        <br>
+        <p style="text-align:center;">
+          <a href="https://github.com/Nazarah/Nazarah.github.io/blob/master/files/Nazia_Hasan_Resume.pdf"  onclick="window.open('../files/Nazia_Hasan_Resume.pdf')" target="_blank" class="button" title="Nazia_Hasan_Resume.pdf">Download Resume</a>
+        </p>
+    </div>
+    <!--1st parallax section ends-->
+    <!--1st normal section starts-->
+    <div class="container-fluid" id="slide2">
+      <h2 style="text-align:center;">UX Skills</h2>
+      <br>
+      <br>
+      <!--Row for skillsset starts-->
+      <div class="row" style="margin:0 20px;">
+        <div class="col-sm-12">
           <p>User Research</p>
           <div class="progress-border">
             <div class="progress-bar UserResearch">90%</div>
           </div>
-          <p  style="margin-top:20px;">UI Designing and Prototyping</p>
+          <br>
+          <p>UI Design & Prototyping</p>
           <div class="progress-border">
             <div class="progress-bar UIDesign">90%</div>
           </div>
-          <p  style="margin-top:20px;">Usability Evaluation</p>
+          <br>
+          <p>Usability Evaluation</p>
           <div class="progress-border">
             <div class="progress-bar Usability">90%</div>
           </div>
-          <p  style="margin-top:20px;">Long Term Usage Study</p>
+          <br>
+          <p>Long Term Usage Study</p>
           <div class="progress-border">
             <div class="progress-bar LongTerm">85%</div>
           </div>
-          <p  style="margin-top:20px;">Photoshop</p>
+          <br>
+          <p>Sketch</p>
           <div class="progress-border">
-            <div class="progress-bar Photoshop">70%</div>
+            <div class="progress-bar sketch">90%</div>
           </div>
-          <p  style="margin-top:20px;">HTML</p>
+          <br>
+          <p>Photoshop</p>
           <div class="progress-border">
-            <div class="progress-bar html">60%</div>
+            <div class="progress-bar Photoshop">80%</div>
           </div>
-          <p  style="margin-top:20px;">CSS</p>
+          <br>
+          <p>HTML (vanilla, Bootstrap)</p>
           <div class="progress-border">
-            <div class="progress-bar css">60%</div>
+            <div class="progress-bar html">70%</div>
           </div>
-          <p  style="margin-top:20px;">Java Script</p>
+          <br>
+          <p>CSS</p>
           <div class="progress-border">
-            <div class="progress-bar js">20%</div>
+            <div class="progress-bar css">70%</div>
+          </div>
+          <br>
+          <p>Javascript (meteor.js)</p>
+          <div class="progress-border">
+            <div class="progress-bar js">30%</div>
           </div>
         </div>
       </div>
-      <div id="slide4">
-        <div class="container_24">
-          <h3>Experiences</h3>
+      <!--Row for skillsset ends-->
+    </div>
+    <!--1st normal section ends-->
+    <!--2nd parallax section starts-->
+    <div class="container-fluid" id="slide3">
+      <h2 style="text-align:center;">UX Portfolio</h2>
+      <br>
+      <div class="row" style="margin:0 20px;">
+        <div class="col-sm-4">
+          <a href="https://github.com/Nazarah/Nazarah.github.io/blob/master/files/BikeBox.pdf"  onclick="window.open('../files/BikeBox.pdf')" target="_blank" title="BikeBox App for Secure Storage of By-cycles">
+            <img class="img-fluid mx-auto d-block" src="image/BikeBox.png" alt="BikeBox" style="width:200px;height:200px;">
+          </a>
+          <p style="text-align:center;">
+            <a href="https://github.com/Nazarah/Nazarah.github.io/blob/master/files/BikeBox.pdf"  onclick="window.open('../files/BikeBox.pdf')" target="_blank" title="BikeBox App for Secure Storage of By-cycles">BikeBox</a>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://github.com/Nazarah/Nazarah.github.io/blob/master/files/Saalasti_Web_UI.pdf"  onclick="window.open('../files/Saalasti_Web_UI.pdf')" target="_blank" title="Saalasti Web UI for monitoring Biomass Equipment">
+            <img class="img-fluid mx-auto d-block" src="image/saalasti.png" alt="Saalasti" style="width:523px;height:150px;">
+          </a>
+          <p style="text-align:center;">
+            <a href="https://github.com/Nazarah/Nazarah.github.io/blob/master/files/Saalasti_Web_UI.pdf"  onclick="window.open('../files/Saalasti_Web_UI.pdf')" target="_blank" title="Saalasti Web UI for monitoring Biomass Equipment">Saalasti Web UI</a>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://github.com/Nazarah/Nazarah.github.io/blob/master/files/Dipor_Usability_Evaluation.pdf"  onclick="window.open('../files/Dipor_Usability_Evaluation.pdf')" target="_blank" title="Usability Evaluation of Dipor Dashboard">
+            <img class="img-fluid mx-auto d-block" src="image/usability.png" alt="Dipor Usability Evaluation" style="width:200px;height:200px;">
+          </a>
+          <p style="text-align:center;">
+            <a href="https://github.com/Nazarah/Nazarah.github.io/blob/master/files/Dipor_Usability_Evaluation.pdf"  onclick="window.open('../files/Dipor_Usability_Evaluation.pdf')" target="_blank" title="Usability Evaluation of Dipor Dashboard">Usability Evaluation of Dipor Dashboard</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--2nd parallax section ends-->
+    <!--2nd normal section starts-->
+    <div class="container-fluid" id="slide4">
+      <h2 style="text-align:center;">Experiences</h2>
+      <br>
+      <!--timeline markup starts-->
+      <div class="row" style="margin:0 20px;">
+        <div class="col-sm-12">
+          <!--timeline starts-->
           <div class="timeline">
-            <div class="container left">
+            <div class="timelinecontainer left">
               <div class="content">
-                <img class="image" src="image/work-briefcase.png" alt="Work">
-                <h5>UX Designer</h5>
-                <h6>2016 - Present</h6>
-                <p style="font-size:16px;"> Sampo Software Oy
-                </p>
+                <h5><span class="fas fa-briefcase"></span> UI - UX Designer</h5>
+                <p class="text-muted"><span class="far fa-clock"></span> 2016 - Present</p>
+                <p>Sampo Software Oy - Tampere, Finland</p>
               </div>
             </div>
-            <div class="container right">
+            <div class="timelinecontainer right">
               <div class="content">
-                <img class="image" src="image/graduate-cap.png" alt="Education">
-                <h5>M.Sc. in Technology</h5>
-                <h6>2014 - 2017</h6>
-                <p>
-                  <span style="font-size:16px;">Tampere University of Technology, Finland</span>
-                  <br>
-                  <br>
-                  <span style="font-weight:bold;font-size:16px;">Major</span> : User Experience
-                  <br>
-                  <br>
-                  <span style="font-weight:bold;font-size:16px;">Thesis</span> :
-                  <a href="http://URN.fi/URN:NBN:fi:tty-201711232243" target="_blank" style="font-size:13px;" title="Thesis report">Concept Development and User Experience Measurement of
-                    Dipor Dashboard for Monitoring Status for Digital Service Development Projects
+                <h5><span class="fas fa-graduation-cap"></span> Master of Science (Technology)</h5>
+                <p class="text-muted"><span class="far fa-clock"></span> 2014 - 2018</p>
+                <p>Tampere University of Technology - Tampere, Finland</p>
+                <p><b>Major</b>: User Experience</p>
+                <p><b>Thesis</b>:
+                  <a href="https://dspace.cc.tut.fi/dpub/handle/123456789/25389">
+                    click here
                   </a>
                 </p>
               </div>
             </div>
-            <div class="container left">
+            <div class="timelinecontainer left">
               <div class="content">
-                <img class="image" src="image/work-briefcase.png" alt="work">
-                <h5>Sr. SQA Engineer</h5>
-                <h6>2014 (May - August)</h6>
-                <p style="font-size:16px;"> Sampo Software Oy
-                </p>
+                <h5><span class="fas fa-briefcase"></span> Senior Software Quality Assurance Engineer</h5>
+                <p class="text-muted"><span class="far fa-clock"></span> May 2014 - August 2014</p>
+                <p>Ohon Technologies Limited - Dhaka, Bangladesh</p>
               </div>
             </div>
-            <div class="container left">
+            <div class="timelinecontainer left">
               <div class="content">
-                <img class="image" src="image/work-briefcase.png" alt="work">
-                <h5>SW Business Developer</h5>
-                <h6>October 2013 - April 2014</h6>
-                <p style="font-size:16px;"> Tiger IT Bangladesh Ltd.
-                </p>
+                <h5><span class="fas fa-briefcase"></span> Software Business Development Executive</h5>
+                <p class="text-muted"><span class="far fa-clock"></span> 2013 - April 2014</p>
+                <p>TigerIT Bangladesh Limited - Dhaka, Bangladesh</p>
               </div>
             </div>
-            <div class="container left">
+            <div class="timelinecontainer left">
               <div class="content">
-                <img class="image" src="image/work-briefcase.png" alt="work">
-                <h5>Software Quality Assurance Engineer</h5>
-                <h6>2011 - 2013</h6>
-                <p style="font-size:16px;"> SoftwarePeople Bangladesh Ltd.
-                </p>
+                <h5><span class="fas fa-briefcase"></span> Software Quality Assurance Engineer</h5>
+                <p class="text-muted"><span class="far fa-clock"></span> 2011 - 2013</p>
+                <p>SoftwarePeople Bangladesh Limited - Dhaka, Bangladesh</p>
               </div>
             </div>
-            <div class="container right">
+            <div class="timelinecontainer right">
               <div class="content">
-                <img class="image" src="image/graduate-cap.png" alt="Education">
-                <h5>B.Sc. (Honors)</h5>
-                <h6>2014 - 2017</h6>
-                <p>
-                  <span style="font-size:16px;">University of Dhaka, Bangladesh</span>
-                  <br>
-                  <br>
-                  <span style="font-weight:bold;font-size:16px;">Major</span> : Computer Science & Engineering
-                </p>
+                <h5><span class="fas fa-graduation-cap"></span> Bachelor of Science (Honors)</h5>
+                <p class="text-muted"><span class="far fa-clock"></span> 2005 - 2010</p>
+                <p>University of Dhaka - Dhaka, Bangladesh</p>
+                <p><b>Major</b>: Computer Science and Engineering</p>
               </div>
             </div>
           </div>
-        </div>
+          <!--timeline ends-->
       </div>
-      <div id="slide5">
-        <div class="container_24">
-            <h3>Contact</h3>
-            <div class="grid_9">
-              <div>
-                <img class="icon"src="image/phone-call-button.png" alt="Phone_number">
-                <p class="contact">+348465760561</p>
-              </div>
-              <div style="margin-top:15px;">
-                <img class="icon"src="image/black-envelope-email-symbol.png" alt="email">
-                <p class="contact">nhasan1987@gmail.com</p>
-              </div>
-              <div style="margin-top:156px;">
-                <a href="https://github.com/Nazarah/UX-Portfolio" class="fa fa-github" target="_blank" title="UX Portfolio"></a>
-                <a href="https://www.linkedin.com/in/naziahasan/" class="fa fa-linkedin" target="_blank" title="Nazia Hasan - LinkedIn"></a>
-                <a href="https://twitter.com/nazarahthecat" class="fa fa-twitter" target="_blank" title="@NazarahTheCat - Twitter"></a>
-              </div>
-            </div>
-            <div class="grid_5">
-                <div class="divider" style="height:290px;"></div>
-            </div>
-            <div class="grid_9">
-                <img class="profile" src="image/Nazia_Hasan.png" alt="Profile Picture">
-
-                  <blockquote style="text-align:center;margin-top:30px;">
-                    <p>
-                      UX Designer...(Young!) Cat Lady...
-                      <br>MakeUp Junkie...Seasonal Chef...
-                      <br>Photography Hobbyist
-                    </p>
-                  </blockquote>
-
-            </div>
-        </div>
+      <!--timeline markup ends-->
       </div>
     </div>
+    <!--2nd normal section ends-->
+    <!--3rd parallax section starts-->
+    <div class="container-fluid" id="slide5">
+      <br>
+      <br>
+      <br>
+      <h2 style="text-align:center;">Contact</h2>
+      <!--row starts-->
+      <div class="row" style="margin: 0 20px;">
+        <!--column for contact details starts-->
+        <div class="col-sm-6">
+          <br>
+          <br>
+          <br>
+          <p style="text-align:center;">
+            <span class="fas fa-at fa-lg"></span> nhasan1987@gmail.com
+          </p>
+          <p style="text-align:center;">
+            <span class="fas fa-phone fa-lg"></span> +358465760561
+          </p>
+          <br>
+          <br>
+          <br>
+          <div class="d-flex justify-content-center">
+            <div class="p-2">
+              <a href="https://github.com/Nazarah/UX-Portfolio" title="Nazarah - UX Portfolio">
+                <i class="fab fa-github fa-3x" style="padding:0 5px;"></i>
+              </a>
+            </div>
+            <div class="p-2">
+              <a href="https://www.linkedin.com/in/naziahasan" title="Nazia Hasan ｜ LinkedIn">
+                <i class="fab fa-linkedin fa-3x" style="padding:0 5px;"></i>
+              </a>
+            </div>
+            <div class="p-2">
+              <a href="https://twitter.com/nazarahthecat" title="Nazia Hasan (@NazarahTheCat) ｜ Twitter">
+                <i class="fab fa-twitter fa-3x" style="padding:0 5px;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--column for contact details ends-->
+        <!--column for image & quote starts-->
+        <div class="col-sm-6">
+          <br>
+          <img class="img-fluid mx-auto d-block" src="image/Nazia_Hasan.png" alt="Nazia Hasan" style="width:200px;height:200px;">
+          <br>
+          <p style="text-align:center;">
+            UX Designer...(Young!) Cat Lady...
+            <br>MakeUp Junkie...Seasonal Chef...
+            <br>Photography Hobbyist
+          </p>
+        </div>
+        <!--column for image & quote ends-->
+      </div>
+      <!--row ends-->
+    </div>
+    <!--3rd parallax section ends-->
   </body>
 </html>
