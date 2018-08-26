@@ -54,7 +54,6 @@ a img:hover {
 #slide1 {
   background:url('../image/slide1.jpg') 50% 0 no-repeat fixed;
   color: #ffffff;
-  height: 600px;
   margin: 0;
   padding: 200px 0 260px;
   background-size: cover;
