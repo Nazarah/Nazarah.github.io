@@ -1,5 +1,5 @@
 # Nazarah.github.io
-My UX Portfolio Website
+My first UX Portfolio Website, made from scratch
 
 This repository contains the markup and stylesheet for my homepage.
 The site has been designed using Bootstrap 4.
